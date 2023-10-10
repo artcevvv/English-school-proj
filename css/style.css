@@ -48,8 +48,28 @@ body {
   -webkit-transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+ 
+.sub-menu div {
+  padding: 15px 20px 15px 40px;
+  margin-bottom: 10px;
+  color: #000000;
+  background: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  position: relative;
+  vertical-align: middle;
+  font-weight: 700;
+  -webkit-transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
 
 .naccs .menu div:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sub-menu div:hover{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -74,8 +94,22 @@ body {
   border-radius: 0;
 }
 
+.sub-menu div.active span.light {
+  background-color: #ffffff;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  top: 0;
+  border-radius: 0;
+}
+
 .naccs .menu div.active {
   color: #ffffff;
+  padding: 15px 20px 15px 20px;
+}
+
+.sub-menu div.active {
+  color: #000000;
   padding: 15px 20px 15px 20px;
 }
 
@@ -113,3 +147,20 @@ ul.nacc li p {
   margin: 0;
 }
 
+.section {
+  margin: 10px;
+  padding: 10px;
+}
+
+.section-title {
+  cursor: pointer;
+}
+
+.section-content {
+  display: none;
+}
+
+/* Стили для активной секции */
+.section.active .section-content {
+  display: block;
+}
