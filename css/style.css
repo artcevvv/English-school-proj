@@ -238,6 +238,7 @@ ul.nacc li p {
   border: 1px solid #000000;
   color: #000000;
   margin-bottom: 20px;
+  margin-top: 20px;
   transition: background-color 0.3s, transform 0.2s;
 }
 
