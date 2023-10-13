@@ -3,7 +3,7 @@
   font-size: 15px;
   font-weight: bold;
   padding: 14px 10px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .nav li {
@@ -127,4 +127,16 @@ a.text{
 
 .logo{
   width: 35px;
+}
+
+.difficulty{
+  color: green !important;
+}
+
+.harder{
+  color: orange !important;
+}
+
+.morehard{
+  color: red !important;
 }
