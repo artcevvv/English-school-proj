@@ -1,4 +1,5 @@
 # English science project 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/artcevvv/english-school-project-react/blob/main/LICENSE)
 ![proj](https://github.com/artcevvv/English-school-proj/assets/97436298/fa3dfe4a-d7d3-450b-88c8-16d6e178ca9f)
 ## Description
 
